@@ -8,6 +8,6 @@ if (!isset($_SESSION['id'])) {
     exit();
 }
 
-echo "<h2>Bem-vindo ao seu painel, " . $_SESSION['nome'] . "!</h2>";
+echo "<h2>Bem-vindo ao dashboard, " . $_SESSION['nome'] . "!</h2>";
 echo "<a href='logout.php'>Sair</a>";
 ?>
